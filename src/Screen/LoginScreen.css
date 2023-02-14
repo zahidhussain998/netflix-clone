@@ -1,0 +1,85 @@
+.LoginScreen {
+  position: relative;
+  height: 100%;
+  background: url("https://www.numerama.com/wp-content/uploads/2017/05/netflix.jpeg")
+    center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.loginScreen__logo {
+  position: fixed;
+  width: 150px;
+  object-fit: contain;
+  padding-left: 20px;
+  
+  
+}
+.loginScreen__body > h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.loginScreen__body > h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.text-input {
+  height: 30px;
+  width: 30vh;
+}
+
+
+.loginScreen__gradient {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  
+}
+.loginScreen__button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px 20px;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.loginScreen__body {
+  position: absolute;
+  top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+.loginScreen__input > form > input {
+  padding: 10px;
+  outline-width: 0;
+  height: 30px;
+  width: 30%;
+  border: none;
+  max-width: 600px;
+}
+.loginScreen__getStarted{
+  padding: 16px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+
+  }
+
+  .loginScreen__input{
+    margin: 20px;
+  }
